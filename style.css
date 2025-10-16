@@ -1,7 +1,6 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+html, body {
+  width: 100%;
+  overflow-x: hidden;
 }
 span{
   color: red;
@@ -9,7 +8,7 @@ span{
 /* hero section start */
 .hero-section{
     background-image:url(img/airplane-3243995_1280.jpg);
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -67,6 +66,20 @@ span{
   }
 }
 /* hero section end */
+
+/* About us section Start */ 
+.aboutus img{
+  box-shadow: 0px 8px 12px rgba(0,0,0,0.0.6);
+  transition: all 0.3s ease-in-out;
+}
+.aboutus img:hover{
+  box-shadow: 0px 12px 24px rgba(0,0,0,0.1);
+  transform: translateY(-10px);
+}
+.text-overlay{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
 
 /* First card section start */
 
