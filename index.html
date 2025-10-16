@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abroad Scholar</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Script Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Fontawesome Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <!-- Aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"
+          ><img src="img/uk-logo.png" width="100px" alt=""
+        /></a>
+        <button type="button" class="btn btn-outline-danger" id="toggleFormBtn">
+          call us 1234567890
+        </button>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero-section d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="intro col-lg-6 col-md-10 fw-bold">
+            <h1 class="">Take the First step to <span>STUDY ABROAD</span></h1>
+            <ul class="list-unstyled">
+              <li>✅ Courses starting from ₹8 Lakhs*</li>
+              <li>✅ Scholarship worth ₹10,00,000*</li>
+              <li>✅ Offer letter in less than 48 hours*</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-10 fw-bold" id="formContainer">
+            <div
+              class="form-container bg-light text-dark p-4 rounded shadow-lg"
+            >
+              <form action="#">
+                <h4 class="text-dark">Start your Study Abroad Journey</h4>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="number" class="form-label">Mobile Number</label>
+                  <input
+                    type="tel"
+                    id="number"
+                    class="form-control"
+                    placeholder="Mobile number"
+                    required
+                  />
+                </div>
+
+                <!-- <div class="mb-3">
+                <label for="address" class="form-label">Address</label>
+                <input
+                  type="text"
+                  id="address"
+                  class="form-control"
+                  placeholder="Your address"
+                  required
+                />
+              </div> -->
+
+                <div class="mb-3">
+                  <label for="pincode" class="form-label">Pincode</label>
+                  <input
+                    type="text"
+                    id="pincode"
+                    class="form-control"
+                    placeholder="Pincode"
+                    required
+                  />
+                </div>
+
+                <div class="form-check mb-3">
+                  <input
+                    type="checkbox"
+                    id="terms"
+                    class="form-check-input"
+                    required
+                  />
+                  <label for="terms" class="form-check-label">
+                    I agree to the <a href="#">terms</a> &
+                    <a href="#">privacy policy</a>
+                  </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">
+                  Book Your Free Consultation
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About us Start -->
+    <section class="aboutus bg-light">
+      <div class="container mt-4">
+        <div class="row align-items-center g-5">
+          <div class="col-sm-6 col-lg-6 text-md-start">
+            <h2 class="">Why Abroad Scholars?</h2>
+            <p>
+              <strong
+                >Abroad Scholars India’s Trusted Study Abroad Consultants Since
+                2009</strong
+              >
+              has guided thousands of students toward global education. With
+              deep expertise and a student-first mindset, we turn study abroad
+              dreams into reality.
+            </p>
+
+            <p>
+              Since 2015, we’ve delivered
+              <strong>end-to-end support</strong> from course selection to visa
+              approval and post-arrival care backed by personal mentorship and
+              global partnerships.
+            </p>
+
+            <p>
+              Over <strong>8000 students</strong> have trusted Abroad Scholars
+              for admissions in top universities across
+              <strong
+                >UK, Canada, Australia, Germany, France, Ireland, New
+                Zealand</strong
+              >, and <strong>Dubai</strong>.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-6 text-center">
+            <img
+              src="img/undraw_adventure-map_3e4p.png"
+              style="width: 300px"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About us end -->
+
+    <!-- First card section start -->
+    <section class="firstcard bg-light">
+      <div class="container py-5">
+        <h2 class="mb-5 text-center">
+          Take The First Step Towards Your <span>Study Abroad</span> Journey
+        </h2>
+
+        <div class="row g-4 justify-content-center">
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="feature-card">
+              <img
+                src="https://img.icons8.com/color/96/000000/globe--v1.png"
+                alt="Global Exposure"
+              />
+              <div class="feature-title">Global Exposure</div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="feature-card">
+              <img
+                src="https://img.icons8.com/color/96/000000/artificial-intelligence.png"
+                alt="Experiential Learning"
+              />
+              <div class="feature-title">Experiential Learning</div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="feature-card">
+              <img src="img/job-seeker.png" alt="Career Opportunities" />
+              <div class="feature-title">Global Career Opportunities</div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="feature-card">
+              <img
+                src="https://img.icons8.com/color/96/000000/language.png"
+                alt="Language Proficiency"
+              />
+              <div class="feature-title">Global Language Proficiency</div>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="feature-card">
+              <img
+                src="https://img.icons8.com/color/96/000000/international-music.png"
+                alt="Cultural Immersion"
+              />
+              <div class="feature-title">Cultural Immersion</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- First card section End -->
+
+    <!-- Second card section start -->
+     <section class="firstcard bg-light">
+      <div class="container py-5">
+        <h2 class="mb-5 text-center">
+          Is Studying In A Top University On Your Mind?
+Let <span>Abroad Scholar</span> Be Your Guide
+        </h2>
+
+        <div class="row g-4 justify-content-center">
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <div class="feature-card">
+              <img
+              src="https://img.icons8.com/ios-filled/100/26e07f/passport.png"
+              alt="Visa Icon"
+            />
+            <h4>100%</h4>
+            <p>Visa Success Rate</p>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
+            <div class="feature-card">
+              <img
+              src="https://img.icons8.com/ios-filled/100/2b7fff/worldwide-location.png"
+              alt="Destinations"
+            />
+            <h4>34+</h4>
+            <p>Study Destinations</p>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
+            <div class="feature-card">
+              <img
+              src="https://img.icons8.com/ios-filled/100/00bcd4/university.png"
+              alt="Universities"
+            />
+            <h4>1500+</h4>
+            <p>Universities</p>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          >
+            <div class="feature-card">
+              <img
+              src="https://img.icons8.com/ios-filled/100/f4a261/book-shelf.png"
+              alt="Courses"
+            />
+            <h4>1,00,000+</h4>
+            <p>Course Options</p>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-4 col-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
+            <div class="feature-card">
+              <img
+              src="https://img.icons8.com/ios-filled/100/f06292/student-female.png"
+              alt="Students"
+            />
+            <h4>4000+</h4>
+            <p>Students Mentored</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Second card section End -->  
+
+  </body>
+  <script>
+    const toggleFormBtn = document.getElementById("toggleFormBtn");
+    const formContainer = document.getElementById("formContainer");
+
+    toggleFormBtn.addEventListener("click", () => {
+      if (window.innerWidth <= 768) {
+        formContainer.classList.toggle("show");
+        formContainer.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+
+     AOS.init();
+  </script>
+</html>

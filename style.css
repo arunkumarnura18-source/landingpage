@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+span{
+  color: red;
+}
+/* hero section start */
+.hero-section{
+    background-image:url(img/airplane-3243995_1280.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #ffff;
+    padding-top: 90px;
+}
+.hero-section::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(0,0,0,0.5);
+    z-index: 0;
+}
+.hero-section .container{
+    position: relative;
+    z-index: 1;
+}
+.form-container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+@media (max-width: 768px) {
+#formContainer {
+    display: none;
+  
+  }
+  #formContainer.show {
+    display: block;
+    animation: fadeIn 0.4s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    .hero-section {
+    background-image: url(full-shot-woman-travel-concept.jpg);
+    background-position: center;
+    padding-top: 200px;
+    min-height: 100vh;
+
+  }
+  .navbar .btn {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+}
+/* hero section end */
+
+/* First card section start */
+
+.feature-card img{
+  width: 60px;
+  margin-bottom: 10px;
+
+} 
+.feature-card{
+  text-align: center;
+  /* background-color: white; */
+  background: linear-gradient(to bottom, #cce0f9, #ffffff);
+  box-shadow: 0px 8px 24px rgb(0,0,0,0.06);
+  padding: 30px 20px;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.feature-card:hover{
+transform: translateY(-8px);
+box-shadow: 0px 12px 28px rgb(0,0,0,0.);
+}
+.feature-title{
+font-size: 1.1rem;
+font-weight: 600;
+}
+
+.feature-card p{
+/* font-size: 1.1rem; */
+font-weight: 600;
+}
+
+/* First card section end */
+
