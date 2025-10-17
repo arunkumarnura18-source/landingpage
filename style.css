@@ -194,3 +194,28 @@ span {
 .testimony .col-md-4 {
   padding: 15px;
 }
+
+/* footer */
+.footer {
+  background: linear-gradient(to bottom, #cce0f9, #ffffff);
+}
+
+.footer .belowus .col-md-4 {
+  padding: 20px;
+}
+
+.footer i {
+  font-size: 1.6rem;
+  color: black;
+  align-items: center;
+}
+
+.detail a {
+  color: black;
+
+  margin-right: 15px;
+}
+
+.detail a:hover {
+  color: blue;
+}
