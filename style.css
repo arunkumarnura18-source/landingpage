@@ -159,3 +159,16 @@ span {
     margin-bottom: 10px;
   }
 }
+/* why choouse start */
+.info-card {
+  background: linear-gradient(to bottom, #cce0f9, #ffffff);
+  box-shadow: 0px 8px 24px rgb(0, 0, 0, 0.06);
+  padding: 30px 20px;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 12px 28px rgb(0, 0, 0, 0);
+}
