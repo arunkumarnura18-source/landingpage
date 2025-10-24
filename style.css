@@ -3,6 +3,13 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+body {
+  background-image: radial-gradient(
+    125% 125% at 50% 90%,
+    #fff 40%,
+    #475569 100%
+  );
+}
 span {
   color: red;
 }
@@ -197,7 +204,12 @@ span {
 
 /* footer */
 .footer {
-  background: linear-gradient(to bottom, #cce0f9, #ffffff);
+  /* background: linear-gradient(to bottom, #cce0f9, #ffffff); */
+  background-image: radial-gradient(
+    125% 125% at 50% 90%,
+    #fff 40%,
+    #475569 100%
+  );
 }
 
 .footer .belowus .col-md-4 {
